@@ -599,8 +599,8 @@
         ".agents/skills"
       ],
       "userSkillsDirs": [
-        "~/.config/agents/skills",
-        "~/.agents/skills"
+        "~/.agents/skills",
+        "~/.config/agents/skills"
       ],
       "detect": [
         "~/.config/agents",
@@ -610,7 +610,8 @@
       ],
       "status": "community",
       "notes": [
-        "kimi-code-cli is an alias for the same Kimi Code CLI path family."
+        "kimi-code-cli is an alias for the same Kimi Code CLI path family.",
+        "Kimi Code reads ~/.agents/skills plus its data-root skills directory ($KIMI_CODE_HOME/skills, default ~/.kimi-code/skills); it does not read ~/.config/agents/skills, which is kept only so earlier kitup installs there remain updatable."
       ],
       "aliases": [
         "kimi-code-cli"
